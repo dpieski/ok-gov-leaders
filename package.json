@@ -1,0 +1,22 @@
+{
+  "name": "ok-gov-leaders",
+  "version": "1.0.0",
+  "description": "Discord Bot to help OK users find their govt officials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpieski/ok-gov-leaders.git"
+  },
+  "author": "Andrew Piechocki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dpieski/ok-gov-leaders/issues"
+  },
+  "homepage": "https://github.com/dpieski/ok-gov-leaders#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
+}
