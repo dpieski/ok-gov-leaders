@@ -112,7 +112,9 @@ client.on('message', async function (message) {
       console.log(args)
       userZIP = args.shift().toLowerCase()
     } else {
-      msg += `\n You MUST enter your ZIP code! Defaulting to OKC.`
+      msg += `\n You MUST enter your ZIP code!`
+      message.reply(msg)
+      return
       userZIP = defaultOKZIP
     }
 
@@ -121,7 +123,8 @@ client.on('message', async function (message) {
       levels: "country",
     })
     const district = res.data.offices[3].divisionId
-    message.reply(`You are in ${res.data.divisions[district].name}!`)
+    msg += `\nYou are in ${res.data.divisions[district].name}!`
+    message.reply(msg)
   } else if (command === 'help') {
     msg += `I am a bot created to help you find information quickly and easily.`
     msg += `\nNOTE: all information provided is sourced through Google Civic API and may not be perfectly accurate.`
