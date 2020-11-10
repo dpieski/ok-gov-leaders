@@ -58,7 +58,9 @@ client.on('message', async function (message) {
         msg += `\n NOTE: Since no ZIP was entered, defaulting to OKC.`
       }
     } else {
-
+      if (!isNaN(subcommand)) {
+        userZIP = parseInt(subcommand)
+      }
     }
 
     if (!userZIP) userZIP = defaultOKZIP
