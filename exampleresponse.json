@@ -1,0 +1,748 @@
+{
+    "normalizedInput": {
+        "line1": "",
+        "city": "Oklahoma City",
+        "state": "OK",
+        "zip": "73107"
+    },
+    "kind": "civicinfo#representativeInfoResponse",
+    "divisions": {
+        "ocd-division/country:us": {
+            "name": "United States",
+            "officeIndices": [
+                0,
+                1
+            ]
+        },
+        "ocd-division/country:us/state:ok/place:oklahoma_city": {
+            "name": "Oklahoma City city",
+            "officeIndices": [
+                18
+            ]
+        },
+        "ocd-division/country:us/state:ok/cd:5": {
+            "name": "Oklahoma's 5th congressional district",
+            "officeIndices": [
+                3
+            ]
+        },
+        "ocd-division/country:us/state:ok/county:oklahoma": {
+            "name": "Oklahoma County",
+            "officeIndices": [
+                13,
+                14,
+                15,
+                16,
+                17
+            ]
+        },
+        "ocd-division/country:us/state:ok": {
+            "name": "Oklahoma",
+            "officeIndices": [
+                2,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ]
+        }
+    },
+    "offices": [{
+            "name": "President of the United States",
+            "divisionId": "ocd-division/country:us",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "headOfState",
+                "headOfGovernment"
+            ],
+            "officialIndices": [
+                0
+            ]
+        },
+        {
+            "name": "Vice President of the United States",
+            "divisionId": "ocd-division/country:us",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "deputyHeadOfGovernment"
+            ],
+            "officialIndices": [
+                1
+            ]
+        },
+        {
+            "name": "U.S. Senator",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "legislatorUpperBody"
+            ],
+            "officialIndices": [
+                2,
+                3
+            ]
+        },
+        {
+            "name": "U.S. Representative",
+            "divisionId": "ocd-division/country:us/state:ok/cd:5",
+            "levels": [
+                "country"
+            ],
+            "roles": [
+                "legislatorLowerBody"
+            ],
+            "officialIndices": [
+                4
+            ]
+        },
+        {
+            "name": "Governor of Oklahoma",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "roles": [
+                "headOfGovernment"
+            ],
+            "officialIndices": [
+                5
+            ]
+        },
+        {
+            "name": "Lieutenant Governor of Oklahoma",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "roles": [
+                "deputyHeadOfGovernment"
+            ],
+            "officialIndices": [
+                6
+            ]
+        },
+        {
+            "name": "OK Superintendent of Public Instruction",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                7
+            ]
+        },
+        {
+            "name": "OK Commissioner of Insurance",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                8
+            ]
+        },
+        {
+            "name": "OK State Auditor and Inspector",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                9
+            ]
+        },
+        {
+            "name": "OK State Treasurer",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                10
+            ]
+        },
+        {
+            "name": "OK Commissioner of Labor",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                11
+            ]
+        },
+        {
+            "name": "OK Attorney General",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                12
+            ]
+        },
+        {
+            "name": "OK Corporation Commissioner",
+            "divisionId": "ocd-division/country:us/state:ok",
+            "levels": [
+                "administrativeArea1"
+            ],
+            "officialIndices": [
+                13,
+                14,
+                15
+            ]
+        },
+        {
+            "name": "Oklahoma County Treasurer",
+            "divisionId": "ocd-division/country:us/state:ok/county:oklahoma",
+            "levels": [
+                "administrativeArea2"
+            ],
+            "officialIndices": [
+                16
+            ]
+        },
+        {
+            "name": "Oklahoma County Sheriff",
+            "divisionId": "ocd-division/country:us/state:ok/county:oklahoma",
+            "levels": [
+                "administrativeArea2"
+            ],
+            "officialIndices": [
+                17
+            ]
+        },
+        {
+            "name": "Oklahoma County Court Clerk",
+            "divisionId": "ocd-division/country:us/state:ok/county:oklahoma",
+            "levels": [
+                "administrativeArea2"
+            ],
+            "officialIndices": [
+                18
+            ]
+        },
+        {
+            "name": "Oklahoma County Assessor",
+            "divisionId": "ocd-division/country:us/state:ok/county:oklahoma",
+            "levels": [
+                "administrativeArea2"
+            ],
+            "officialIndices": [
+                19
+            ]
+        },
+        {
+            "name": "Oklahoma County Clerk",
+            "divisionId": "ocd-division/country:us/state:ok/county:oklahoma",
+            "levels": [
+                "administrativeArea2"
+            ],
+            "officialIndices": [
+                20
+            ]
+        },
+        {
+            "name": "Oklahoma City Mayor",
+            "divisionId": "ocd-division/country:us/state:ok/place:oklahoma_city",
+            "levels": [
+                "locality"
+            ],
+            "officialIndices": [
+                21
+            ]
+        }
+    ],
+    "officials": [{
+            "name": "Donald J. Trump",
+            "address": [{
+                "line1": "1600 Pennsylvania Avenue Northwest",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(202) 456-1111"
+            ],
+            "urls": [
+                "https://www.whitehouse.gov/"
+            ],
+            "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/PE%20Color.jpg",
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "DonaldTrump"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "potus"
+                },
+                {
+                    "type": "YouTube",
+                    "id": "whitehouse"
+                }
+            ]
+        },
+        {
+            "name": "Mike Pence",
+            "address": [{
+                "line1": "1600 Pennsylvania Avenue Northwest",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20500"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(202) 456-1111"
+            ],
+            "urls": [
+                "https://www.whitehouse.gov/"
+            ],
+            "photoUrl": "https://www.whitehouse.gov/sites/whitehouse.gov/files/images/45/VPE%20Color.jpg",
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "mikepence"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "VP"
+                }
+            ]
+        },
+        {
+            "name": "James M. Inhofe",
+            "address": [{
+                "line1": "205 Russell Senate Office Building",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20510"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(202) 224-4721"
+            ],
+            "urls": [
+                "https://www.inhofe.senate.gov/"
+            ],
+            "photoUrl": "http://bioguide.congress.gov/bioguide/photo/I/I000024.jpg",
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "jiminhofe"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "jiminhofe"
+                },
+                {
+                    "type": "YouTube",
+                    "id": "JimInhofePressOffice"
+                }
+            ]
+        },
+        {
+            "name": "James Lankford",
+            "address": [{
+                "line1": "316 Hart Senate Office Building",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20510"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(202) 224-5754"
+            ],
+            "urls": [
+                "https://www.lankford.senate.gov/"
+            ],
+            "photoUrl": "http://bioguide.congress.gov/bioguide/photo/L/L000575.jpg",
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "SenatorLankford"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "SenatorLankford"
+                },
+                {
+                    "type": "YouTube",
+                    "id": "UCz8T6sK5fEycyWmVz6Vpe5Q"
+                }
+            ]
+        },
+        {
+            "name": "Kendra Horn",
+            "address": [{
+                "line1": "415 Cannon House Office Building",
+                "city": "Washington",
+                "state": "DC",
+                "zip": "20515"
+            }],
+            "party": "Democratic Party",
+            "phones": [
+                "(202) 225-2132"
+            ],
+            "urls": [
+                "https://horn.house.gov/"
+            ],
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "RepKendraHorn"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "repkendrahorn"
+                }
+            ]
+        },
+        {
+            "name": "Kevin Stitt",
+            "address": [{
+                "line1": "2300 North Lincoln Boulevard",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-2342"
+            ],
+            "urls": [
+                "https://www.governor.ok.gov/"
+            ],
+            "channels": [{
+                "type": "Twitter",
+                "id": "GovStitt"
+            }]
+        },
+        {
+            "name": "Matt Pinnell",
+            "address": [{
+                "line1": "2300 North Lincoln Boulevard",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-2161"
+            ],
+            "urls": [
+                "https://www.ok.gov/ltgovpinnell/"
+            ],
+            "channels": [{
+                "type": "Facebook",
+                "id": "MattPinnellOK"
+            }]
+        },
+        {
+            "name": "Joy Hofmeister",
+            "address": [{
+                "line1": "2500 North Lincoln Boulevard",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-3301"
+            ],
+            "urls": [
+                "https://sde.ok.gov/"
+            ],
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "OklaSDE"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "oksde"
+                }
+            ]
+        },
+        {
+            "name": "Glen Mulready",
+            "address": [{
+                "line1": "400 Northeast 50th Street",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-2828"
+            ],
+            "urls": [
+                "https://www.oid.ok.gov/"
+            ]
+        },
+        {
+            "name": "Cindy Byrd",
+            "address": [{
+                "line1": "2300 North Lincoln Boulevard",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-3495"
+            ],
+            "urls": [
+                "https://www.sai.ok.gov/"
+            ],
+            "emails": [
+                "auditor@sai.ok.gov"
+            ]
+        },
+        {
+            "name": "Randy McDaniel",
+            "address": [{
+                "line1": "9520 North May Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73120"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-3191"
+            ],
+            "urls": [
+                "https://www.ok.gov/treasurer/"
+            ],
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "TreasurerMcDaniel"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "OKTreasurer"
+                }
+            ]
+        },
+        {
+            "name": "Leslie Osborn",
+            "address": [{
+                "line1": "3017 North Stiles Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-6100"
+            ],
+            "urls": [
+                "https://www.ok.gov/odol/"
+            ],
+            "emails": [
+                "labor.info@labor.ok.gov"
+            ]
+        },
+        {
+            "name": "Mike Hunter",
+            "address": [{
+                "line1": "313 Northeast 21st Street",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73105"
+            }],
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-3921"
+            ],
+            "urls": [
+                "http://www.oag.ok.gov/"
+            ],
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "AttorneyGeneralMikeHunter"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "AGMikeHunter"
+                }
+            ]
+        },
+        {
+            "name": "Dana Murphy",
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-2211"
+            ],
+            "urls": [
+                "http://www.occeweb.com/Comm/Murphy/MurphyBio_11-25-19.html"
+            ],
+            "emails": [
+                "ContactDanaMurphy@occ.ok.gov"
+            ]
+        },
+        {
+            "name": "Todd Hiett",
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-2211"
+            ],
+            "urls": [
+                "http://www.occeweb.com/Comm/Hiett/ToddHiettBio.html"
+            ],
+            "emails": [
+                "ContactToddHiett@occ.ok.gov"
+            ]
+        },
+        {
+            "name": "Bob Anthony",
+            "party": "Republican Party",
+            "phones": [
+                "(405) 521-2211"
+            ],
+            "urls": [
+                "http://www.occeweb.com/Comm/Anthony/Bob_Anthony_Bio.html"
+            ],
+            "emails": [
+                "Bob.Anthony@occ.ok.gov"
+            ]
+        },
+        {
+            "name": "Forrest \"Butch\" Freeman",
+            "address": [{
+                "line1": "320 Robert S Kerr Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102"
+            }],
+            "party": "Republican",
+            "phones": [
+                "(405) 713-1300"
+            ],
+            "urls": [
+                "https://www.oklahomacounty.org/364/Treasurer"
+            ]
+        },
+        {
+            "name": "P.D. Taylor",
+            "address": [{
+                "line1": "201 North Shartel Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102"
+            }],
+            "party": "Republican",
+            "phones": [
+                "(405) 713-1000"
+            ],
+            "urls": [
+                "https://sheriff.oklahomacounty.org/"
+            ],
+            "emails": [
+                "PDtay@oklahomacounty.org"
+            ],
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "OCSO911"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "OkCountySheriff"
+                }
+            ]
+        },
+        {
+            "name": "Rick Warren",
+            "address": [{
+                "line1": "320 Robert S Kerr Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102"
+            }],
+            "party": "Republican",
+            "phones": [
+                "(405) 713-1705"
+            ],
+            "urls": [
+                "https://www.oklahomacounty.org/149/Court-Clerk"
+            ],
+            "emails": [
+                "okccc@oscn.net"
+            ]
+        },
+        {
+            "name": "Larry Stein",
+            "address": [{
+                "line1": "320 Robert S Kerr Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102"
+            }],
+            "party": "Republican",
+            "phones": [
+                "(405) 713-1214"
+            ],
+            "urls": [
+                "https://assessor.oklahomacounty.org/"
+            ],
+            "emails": [
+                "larste@okcounty.org"
+            ]
+        },
+        {
+            "name": "David B. Hooten",
+            "address": [{
+                "line1": "320 Robert S Kerr Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102"
+            }],
+            "party": "Republican",
+            "phones": [
+                "(405) 713-7184"
+            ],
+            "urls": [
+                "https://www.oklahomacounty.org/261/County-Clerk"
+            ],
+            "channels": [{
+                    "type": "Facebook",
+                    "id": "oklahomacountyclerk"
+                },
+                {
+                    "type": "Twitter",
+                    "id": "OKCountyClerk"
+                }
+            ]
+        },
+        {
+            "name": "David Holt",
+            "address": [{
+                "line1": "200 North Walker Avenue",
+                "city": "Oklahoma City",
+                "state": "OK",
+                "zip": "73102"
+            }],
+            "party": "Nonpartisan",
+            "phones": [
+                "(405) 297-2424"
+            ],
+            "urls": [
+                "https://www.okc.gov/government/mayor"
+            ],
+            "emails": [
+                "mayor@okc.gov"
+            ],
+            "channels": [{
+                "type": "Facebook",
+                "id": "MayorDavidHolt"
+            }]
+        }
+    ]
+}

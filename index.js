@@ -80,7 +80,7 @@ client.on('message', async function (message) {
     }
 
     if (!userZIP) {
-      msg += `\nNOTE: No ZIP was entered so defaulting to OKC.`
+      msg += `\nNOTE: No ZIP was entered so defaulting to OKC!`
       userZIP = defaultOKZIP
     }
 

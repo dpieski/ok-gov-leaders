@@ -4,7 +4,8 @@
   "description": "Discord Bot to help OK users find their govt officials",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "discord.js": "^12.4.1",
     "googleapis": "^64.0.0",
     "got": "^11.8.0",
-    "node-html-parser": "^1.4.9"
+    "node-html-parser": "^1.4.9",
+    "nodemon": "^2.0.6"
   }
 }
