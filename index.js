@@ -97,22 +97,12 @@ client.on('message', async function (message) {
       console.log("ERROR!")
       console.log(error)
     }
-  }
-
-  if (command === 'ping') {
+  } else if (command === 'ping') {
     const timeTaken = Date.now() - message.createdTimestamp
 
-    const res = await civic.representatives.representativeInfoByAddress({
-      address: '73107',
-    })
-    console.log(res.data)
-    const offices = res.data.offices
     const officials = res.data.officials
-    message.reply(`Your officials are ${officials.join('; ')}.\n Two`)
-    message.reply(`Your officials are ${officials.join('; ')}.`)
-  }
-
-  if (command === 'whatsmydistrict') {
+    message.reply(`Pong! It took me ${timeTaken}ms`)
+  } else if (command === 'whatsmydistrict') {
     let levels = []
     let userZIP
 
@@ -128,17 +118,20 @@ client.on('message', async function (message) {
       address: userZIP,
       levels: "country",
     })
-    const district = res.data.offices[3].divisionId.split('cd:')[1]
-    console.log(res.data.offices[3].divisionId)
-    message.reply(`You are in District ${district}! `)
-  }
-
-  if (command === 'help') {
+    const district = res.data.offices[3].divisionId
+    message.reply(`You are in ${res.data.divisions[district].name}!`)
+  } else if (command === 'help') {
     msg += `I am a bot created to help you find information quickly and easily.`
     msg += `\nNOTE: all information provided is sourced through Google Civic API and may not be perfectly accurate.`
     msg += `\n\nCommands Include: '!whatsmydistrict zip-code' to get your district`
     msg += `\nand '!officials' followed by any of "federal", "state", "county", or "local" and then your zip code.`
     message.reply(msg)
+  } else if (command === 'rbg') {
+    message.reply("\nThe Notorious RBG: 'I said on the equality side of it, that it is essential to a woman's equality with man that she be the decision-maker, that her choice be controlling.'", {
+      files: ["https://images-na.ssl-images-amazon.com/images/I/61qEwCq794L._AC_SX522_.jpg"]
+    })
+  } else {
+    message.reply("Whoops! I don't understand you. I am not a very smart bot.")
   }
   console.log("Responded....")
 })
