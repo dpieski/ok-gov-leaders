@@ -44,7 +44,7 @@ client.on('message', async function (message) {
       }
     } else if (subcommand === 'state') {
       levels.push('administrativeArea1')
-      console.log('In state subcommnad....')
+      console.log('In state subcommnad...')
       if (!isNaN(args[0])) {
         userZIP = parseInt(args.shift().toLowerCase())
       } else {
